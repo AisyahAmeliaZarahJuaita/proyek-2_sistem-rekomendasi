@@ -285,7 +285,7 @@ Ketika pengguna memilih “Kampung Wisata Taman Sari”, sistem akan menampilkan
      berdasarkan prediksi rating tertinggi.
   2. Rekomendasi disesuaikan dengan preferensi pengguna berdasarkan riwayat interaksinya.
 
-![Gambar](images/2.png)
+![Gambar](images/9.png)
 
 -  Kelebihan
    1. Menghasilkan rekomendasi yang lebih personal sesuai dengan pola pengguna.
