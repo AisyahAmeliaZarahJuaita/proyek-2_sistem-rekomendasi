@@ -197,6 +197,10 @@ Setelah diperoleh matriks TF-IDF, dilakukan perhitungan cosine similarity untuk 
 
 Matriks cosine_sim_df kemudian digunakan dalam fungsi tourism_recommendations() yang dapat memberikan rekomendasi destinasi wisata yang mirip dengan tempat yang dicari pengguna. Sebagai contoh, ketika pengguna memasukkan nama "Kampung Wisata Taman Sari", sistem akan mengembalikan 5 destinasi teratas yang memiliki nilai kemiripan tertinggi berdasarkan kategorinya.
 
+3. Pelatihan Model
+
+Model melatih pada *Kampung Wisata Taman Sari* menunjukkan Precision\@5 = 1.0, artinya semua rekomendasi relevan. Namun, Recall\@5 = 0.0373, menandakan hanya sebagian kecil tempat relevan yang berhasil direkomendasikan. Sistem sangat tepat, tapi masih terbatas dalam cakupan.
+
 ## Collaborative Filtering
 
 1. Encoding userID dan placeID
