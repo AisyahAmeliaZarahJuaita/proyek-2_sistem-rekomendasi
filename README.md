@@ -242,7 +242,7 @@ Model dilatih menggunakan fungsi loss BinaryCrossentropy dan metrik RootMeanSqua
 
 # Modeling
 
-1. Content Based Filtering
+## 1. Content Based Filtering
 
 - Modeling:
 
@@ -270,7 +270,7 @@ Ketika pengguna memilih “Kampung Wisata Taman Sari”, sistem akan menampilkan
   2. Rekomendasi hanya berdasarkan konten, sehingga tidak bisa menyesuaikan selera unik tiap 
      individu.
      
-2. Collaborative Filtering
+## 2. Collaborative Filtering
 
 - Modeling:
   1. Menggunakan data interaksi antara pengguna (userID) dan tempat wisata (placeID) dalam 
@@ -320,13 +320,13 @@ Rumus:
 
 2. Hasil Evaluasi Model:
 
-Evaluasi dilakukan untuk tempat wisata Kampung Wisata Taman Sari (kategori: Taman Hiburan), dengan menggunakan nilai K = 5. Dapat dilihat dari output yang dihasilkan di bawah ini:
+Evaluasi dilakukan untuk tempat wisata Kampung Wisata Taman Sari (kategori: Taman Hiburan), dengan menggunakan Precision@K dan Recall@K dengan nilai K = 5. Dapat dilihat dari output yang dihasilkan di bawah ini:
 
 ![Gambar](images/8.png)
 
 3. Penjelasan:
 
-- Precision@5 = 1.00
+- Precision@5 = 1.0000
   
 Artinya, 100% dari 5 rekomendasi teratas memiliki kategori yang sama dengan tempat wisata yang dijadikan acuan (Taman Hiburan).
 Ini menunjukkan bahwa sistem sangat tepat dalam memilih tempat wisata serupa berdasarkan konten kategorinya.
