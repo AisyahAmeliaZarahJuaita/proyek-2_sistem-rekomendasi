@@ -362,7 +362,7 @@ Berdasarkan hasil plot yang ditampilkan dalam notebook:
 - RMSE pada validation set juga menunjukkan performa yang stabil, tanpa overfitting yang 
   signifikan.
 
-![Gambar](images/5.png)
+![Gambar](images/10.png)
 
 - Penjelasan:
 
