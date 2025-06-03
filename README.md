@@ -337,7 +337,13 @@ Hal ini wajar dalam sistem rekomendasi, karena recall akan meningkat seiring ber
 1. Metrik Evaluasi yang digunakan: 
 
 - Root Mean Squared Error (RMSE)
-Metrik ini digunakan untuk mengukur seberapa jauh prediksi rating dari model terhadap rating sebenarnya.
+Metrik ini digunakan untuk mengukur seberapa jauh prediksi rating dari model terhadap rating sebenarnya. Dengan Rumus:
+
+![Gambar](images/3.png)
+
+- Penjelasan:
+
+![Gambar](images/4.png)
 
 RMSE adalah turunan dari Mean Squared Error (MSE) dan sangat umum digunakan dalam masalah regresi dan sistem rekomendasi berbasis rating.
 
