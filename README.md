@@ -296,6 +296,44 @@ Ketika pengguna memilih “Kampung Wisata Taman Sari”, sistem akan menampilkan
 
 Pada proyek ini menggunakan dua model yaitu Content Based Filtering dan Collaborative Filtering.
 
+### Content Based Filtering
+
+1. Metrik Evaluasi yang digunakan:
+
+- Precision@K
+
+Precision@K mengukur proporsi item relevan (misalnya, dengan kategori yang sama) di antara K rekomendasi teratas yang diberikan oleh sistem.
+Rumus:
+
+![Gambar](images/6.png)
+
+- Recall@K
+
+Recall@K mengukur proporsi item relevan yang berhasil ditemukan oleh sistem dari seluruh item relevan yang tersedia.
+Rumus:
+
+![Gambar](images/7.png)
+
+2. Hasil Evaluasi Model:
+
+Evaluasi dilakukan untuk tempat wisata Kampung Wisata Taman Sari (kategori: Taman Hiburan), dengan menggunakan nilai K = 5. Dapat dilihat dari output yang dihasilkan di bawah ini:
+
+![Gambar](images/8.png)
+
+3. Penjelasan:
+
+- Precision@5 = 1.00
+  
+Artinya, 100% dari 5 rekomendasi teratas memiliki kategori yang sama dengan tempat wisata yang dijadikan acuan (Taman Hiburan).
+Ini menunjukkan bahwa sistem sangat tepat dalam memilih tempat wisata serupa berdasarkan konten kategorinya.
+
+- Recall@5 = 0.0373
+  
+Nilai ini mengindikasikan bahwa dari seluruh tempat wisata yang relevan (134 tempat dengan kategori Taman Hiburan), hanya sekitar 3.73% yang berhasil ditampilkan di 5 rekomendasi teratas.
+Hal ini wajar dalam sistem rekomendasi, karena recall akan meningkat seiring bertambahnya jumlah rekomendasi (K).
+
+###  Collaborative Filtering.
+
 1. Metrik Evaluasi yang digunakan: 
 
 - Root Mean Squared Error (RMSE)
